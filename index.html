@@ -13,8 +13,13 @@
     <div id="example"></div>
 
     <script type="text/babel">
+      class Block extends React.Component {
+          render() {
+              return ( <h3>itProger</h3> ); 
+          }
+      }
       ReactDOM.render (
-        <div><h3>Hi, it is me!</h3></div>, 
+        <Block />,
         document.getElementById("example")
       );
     </script>
